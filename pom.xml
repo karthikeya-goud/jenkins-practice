@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -56,11 +57,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>nexusRepo</id>
-            <url>http://13.233.230.166:8081/repository/maven-snapshots/</url>
+            <url>https://13.233.230.166:8081/repository/maven-snapshots/</url> <!-- Changed to HTTPS -->
         </snapshotRepository>
         <repository>
             <id>nexusRepo</id>
-            <url>http://13.233.230.166:8081/repository/maven-releases/</url>
+            <url>https://13.233.230.166:8081/repository/maven-releases/</url> <!-- Changed to HTTPS -->
         </repository>
     </distributionManagement>
 
@@ -68,7 +69,7 @@
         <pluginRepository>
             <id>maven1</id>
             <name>Maven.org</name>
-            <url>http://repo1.maven.org/maven2</url>
+            <url>https://repo.maven.apache.org/maven2</url> <!-- Changed to HTTPS -->
         </pluginRepository>
     </pluginRepositories>
 
